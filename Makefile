@@ -1,3 +1,5 @@
+get-deps:
+
 all:
 	g++ -c vec.cpp
 
