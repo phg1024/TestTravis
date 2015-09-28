@@ -2,7 +2,11 @@
 #include "vec.h"
 
 int main(int argc, char** argv) {
+try {
   vec<double> v;
-
   return 0;
+}
+catch(...) {
+  return -1;
+}
 }
